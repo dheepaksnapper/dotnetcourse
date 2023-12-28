@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "dJROfiGsFUHDOE3li5/Ttbh6hGw87Z6l4gqTF4MQeiK/C3srYlNuVUYyO9apA2n+y2tzZoKBo4v3ndoqCumCoA==",
+  "success": true,
+  "projectFilePath": "C:\\Dheepak\\Dheepak\\ASP\\CourceData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucid\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "C:\\Users\\lucid\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\lucid\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\lucid\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\lucid\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\lucid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\lucid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
