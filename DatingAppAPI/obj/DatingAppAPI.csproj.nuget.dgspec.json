@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dheepak\\Dheepak\\ASP\\CourceData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {}
+    "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {}
   },
   "projects": {
-    "C:\\Dheepak\\Dheepak\\ASP\\CourceData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {
+    "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dheepak\\Dheepak\\ASP\\CourceData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectUniqueName": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
         "projectName": "DatingAppAPI",
-        "projectPath": "C:\\Dheepak\\Dheepak\\ASP\\CourceData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectPath": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
         "packagesPath": "C:\\Users\\lucid\\.nuget\\packages\\",
-        "outputPath": "C:\\Dheepak\\Dheepak\\ASP\\CourceData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\obj\\",
+        "outputPath": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucid\\AppData\\Roaming\\NuGet\\NuGet.Config",
