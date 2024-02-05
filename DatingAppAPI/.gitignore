@@ -485,4 +485,5 @@ $RECYCLE.BIN/
 
 # obj folder 
 bin
-**/obj/*
+obj
+*.db
