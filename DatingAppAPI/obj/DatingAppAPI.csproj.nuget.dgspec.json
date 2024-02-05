@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {}
+    "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {}
   },
   "projects": {
-    "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {
+    "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectUniqueName": "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
         "projectName": "DatingAppAPI",
-        "projectPath": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
-        "packagesPath": "C:\\Users\\lucid\\.nuget\\packages\\",
-        "outputPath": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\ProjectDatingApp\\dotnetcourse\\DatingAppAPI\\obj\\",
+        "projectPath": "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+        "packagesPath": "C:\\Users\\Dheepak\\.nuget\\packages\\",
+        "outputPath": "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dheepak\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +39,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.14, )"
             },
@@ -72,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
