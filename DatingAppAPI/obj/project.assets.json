@@ -1723,24 +1723,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dheepak\\.nuget\\packages\\": {}
+    "C:\\Users\\lucid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+      "projectUniqueName": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
       "projectName": "DatingAppAPI",
-      "projectPath": "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
-      "packagesPath": "C:\\Users\\Dheepak\\.nuget\\packages\\",
-      "outputPath": "D:\\Dheepak\\Data\\Dheepak\\Study\\CourceData\\dotnetcourse\\DatingAppAPI\\obj\\",
+      "projectPath": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\dotnetcourse\\DatingAppAPI\\DatingAppAPI.csproj",
+      "packagesPath": "C:\\Users\\lucid\\.nuget\\packages\\",
+      "outputPath": "C:\\Dheepak\\Dheepak\\ASP\\CourseData\\aspdotnetangular\\dotnetcourse\\DatingAppAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dheepak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lucid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1797,7 +1799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

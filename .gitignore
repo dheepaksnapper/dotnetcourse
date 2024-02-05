@@ -485,5 +485,4 @@ $RECYCLE.BIN/
 
 # obj folder 
 bin
-obj
-packages
+**/obj/*
