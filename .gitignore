@@ -487,3 +487,5 @@ $RECYCLE.BIN/
 bin
 obj
 packages
+DatingAppAPI/dadtingapp.db-shm
+DatingAppAPI/dadtingapp.db-wal
