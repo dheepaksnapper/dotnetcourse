@@ -486,6 +486,7 @@ $RECYCLE.BIN/
 # obj folder 
 bin
 obj
+DatingAppAPI/appsettings.json
 packages
 DatingAppAPI/dadtingapp.db-shm
 DatingAppAPI/dadtingapp.db-wal
