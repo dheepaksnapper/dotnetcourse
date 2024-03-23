@@ -1,2 +1,10 @@
 <h1>DatingApp Client</h1>
 <h4>this is bootstarpped from main.ts -> app.mosule.ts -> app.component.ts -> index.html</h4> 
+
+
+<p>This this the response from API</p>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.id}} - {{user.userName}}
+    </li>
+</ul>
