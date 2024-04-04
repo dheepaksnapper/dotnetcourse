@@ -5,7 +5,7 @@
       "hotReloadEnabled": false,
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5000;https://localhost:5001",
       "environmentVariables": {
