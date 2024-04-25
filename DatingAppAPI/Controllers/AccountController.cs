@@ -58,7 +58,6 @@ namespace DatingAppAPI.Controllers
                 if(computerHash[i] != user.PasswordHash[i]) return Unauthorized("password mismatch");
  
             }
-
             return new UserDto
             {
                 Username = user.UserName,

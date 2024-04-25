@@ -1,0 +1,26 @@
+<div *ngIf="registerModeFromHome" class="form-signin">
+    <form #registerForm="ngForm" (submit)="register()">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+        <div class="form-floating mb-3">
+            <input
+            name="Username"
+            [(ngModel)] = "model.Username" 
+            type="text" class="form-control" id="floatingInput" placeholder="username">
+            <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input
+            name="Password"
+            [(ngModel)] = "model.Password"
+            type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-between">
+            <button class="btn btn-primary w-100 py-2 mb-3" type="submit">Sign in</button>
+            <button class="btn btn-outline-secondary w-100 py-2 mb-3" type="button" (click)="cancleRegister()">Cancel</button>
+        </div>
+        <div *ngIf="errorMessage" class="alert alert-danger" role="alert">
+            {{ errorMessage }}
+        </div>
+    </form>
+</div>

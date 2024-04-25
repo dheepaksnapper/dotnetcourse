@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
+import { compileClassMetadata } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -18,5 +20,9 @@ export class  AppComponent implements OnInit {
       error: (error) => { console.log(error); },
       complete: () => console.log('Request completed')
     })
+  }
+
+  getusers(): Observable<any> {
+    return this.http.get('https://localhost:5001/api/user');
   }
 }

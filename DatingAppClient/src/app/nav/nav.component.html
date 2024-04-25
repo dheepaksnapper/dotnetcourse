@@ -1,18 +1,14 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4">
     <div class="container">
       <a class="navbar-brand" href="#">Dating App</a>
-        <ul class="navbar-nav justify-content-lg-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Matching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Lists</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Message</a>
-          </li>
+        <!-- app content list-->
+        <ul *ngIf="loggedIn" class="navbar-nav justify-content-lg-center">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Matching</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Lists</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Message</a></li>
         </ul>
-        <form #loginFom="ngForm"  class="d-flex" role="search" (ngSubmit)="login()" autocomplete="off">
+        <!-- login form -->
+        <form *ngIf="!(accountService.currentUser$ | async)" #loginFom="ngForm"  class="d-flex" role="search" (ngSubmit)="login()" autocomplete="off">
           <input 
           name="username"
           [(ngModel)]="model.username"
@@ -23,6 +19,14 @@
           class="form-control me-2" type="password" placeholder="password">
           <button class="btn btn-primary" type="submit">Login   </button>
         </form>
+        <!-- loggedin dropdown-->
+        <div *ngIf="accountService.currentUser$ | async" class="dropdown" dropdown>
+          <a class="dropdown-toggle" style="text-decoration: none;" dropdownToggle>Welcome user !</a>
+          <div class="dropdown-menu" *dropdownMenu>
+            <a class="dropdown-item">Edit profile</a>
+            <a class="dropdown-item" (click)="logout()">Logout</a>
+          </div>
+        </div>
       </div>
   </nav>
   

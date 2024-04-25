@@ -1,0 +1,13 @@
+<div class="text-center"> <!-- Centering the content -->
+  <div *ngIf="!registerMode" class="col-lg-6 mx-auto">
+      <h1 class="display-5 fw-bold text-body-emphasis">Dating App</h1>
+      <p class="lead mb-4">This is a dating app that I'm creating while learning ASP.NET Core and Angular.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3" (click)="toggleRegisterMode()">Sign up</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">More info</button>
+      </div>
+  </div>
+  <div class="col-3 mx-auto mt-4">
+    <app-register [registerModeFromHome]="registerMode" (cancleRegisterEvent)="cancleRegister($event)"></app-register>
+  </div>
+</div>
